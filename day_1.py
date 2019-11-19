@@ -21,7 +21,7 @@ def calculate_resulting_frequency(list_of_frequency_changes: List[int]) -> int:
     return sum(list_of_frequency_changes)
 
 
-list_of_frequency_changes = parse_text_file('day_1.txt')
+list_of_frequency_changes = parse_text_file('day-1.txt')
 resulting_frequency = calculate_resulting_frequency(list_of_frequency_changes)
 logging.info(f'Part 1 resulting frequency: {resulting_frequency}.')
 
